@@ -1,0 +1,17 @@
+.tamanio_carrusel{
+    display: flex;
+    justify-content: center;
+    
+    h5{
+        margin-bottom: 40px;
+    }
+}
+    .carousel-indicators{
+
+        li{
+            margin-bottom: 85px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+        }
+    }

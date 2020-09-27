@@ -1,0 +1,29 @@
+.pruebaBEM__fotos{
+    .pruebaBEM__fotos--titulo{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(202, 200, 200);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        li{
+            display: flex;
+            justify-content: center;
+
+            .pruebaBEM__fotos--imagenes{
+                background-color:-webkit-box-shadow -15px 14px 16px -11px rgba(63,14,128,1);
+                -moz-box-shadow: -15px 14px 16px -11px rgba(63,14,128,1);
+                box-shadow: -15px 14px 16px -11px rgba(63,14,128,1);   
+                margin: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.redes_sociales_footer{
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        li{
+
+            img{
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+            }
+
+            p{
+                color: rgb(202, 200, 200);
+                font-size: 7px bold;
+            }
+        }
+    }
+
+}
+.redes_sociales_footer{
+    ul{
+        li{
+            img:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}

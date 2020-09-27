@@ -1,0 +1,41 @@
+.contenido{
+    h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(202, 200, 200);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
+    .box_formulario{
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+        #form_contact{
+                display: grid;
+                grid-template-columns: 200px 200px;
+                grid-template-areas: 
+                "nombre email"
+                "mensaje mensaje";
+                color: floralwhite;
+                grid-column-gap: 3px;
+                grid-row-gap: 3px;
+            
+                .name{
+                    grid-area: nombre;
+                }
+
+                .email{
+                    grid-area: email;
+                }
+                
+                .mensaje{
+                    grid-area: mensaje;
+                    resize: none;
+                }
+
+
+        }
+    }
+}

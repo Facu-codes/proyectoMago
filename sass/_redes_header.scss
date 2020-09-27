@@ -1,0 +1,27 @@
+.redes_sociales_header{    
+    
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 90px;
+
+        li{
+            margin-top: 20px;
+            padding-right: 5px;
+
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+.redes_sociales_header{
+    ul{
+        li{
+            img:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}
