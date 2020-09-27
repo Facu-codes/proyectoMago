@@ -1,0 +1,7 @@
+@mixin fotos_carrusel($marginbtm, $heigt, $width, $border) {
+    margin-bottom: $marginbtm;
+    height: $height;
+    width: $width;
+    border-radius: $border;
+    
+}
