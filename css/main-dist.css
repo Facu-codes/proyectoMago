@@ -16,28 +16,28 @@ a {
 }
 
 /*HEADER*/
-.pruebaBEM__nav {
+.box_menu_titulo {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.pruebaBEM__nav .pruebaBEM__nav--menu1 ul, .pruebaBEM__nav .pruebaBEM__nav--menu2 ul {
+.box_menu_titulo .menu1 ul, .box_menu_titulo .menu2 ul {
   display: flex;
 }
-.pruebaBEM__nav .pruebaBEM__nav--menu1 ul li, .pruebaBEM__nav .pruebaBEM__nav--menu2 ul li {
+.box_menu_titulo .menu1 ul li, .box_menu_titulo .menu2 ul li {
   display: inline-block;
   list-style: none;
   margin: 20px;
   font-size: 20px;
   font-family: "Londrina Solid", cursive;
 }
-.pruebaBEM__nav .pruebaBEM__nav--menu1 ul li a, .pruebaBEM__nav .pruebaBEM__nav--menu2 ul li a {
+.box_menu_titulo .menu1 ul li a, .box_menu_titulo .menu2 ul li a {
   display: inline-block;
   color: rgba(202, 200, 200, 0.911);
   -webkit-text-decoration: none solid;
           text-decoration: none solid;
 }
-.pruebaBEM__nav .pruebaBEM__nav--menu1 ul li a:hover, .pruebaBEM__nav .pruebaBEM__nav--menu2 ul li a:hover {
+.box_menu_titulo .menu1 ul li a:hover, .box_menu_titulo .menu2 ul li a:hover {
   transform: scale(1.5);
 }
 

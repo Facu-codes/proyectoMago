@@ -1,9 +1,9 @@
-.pruebaBEM__nav{
+.box_menu_titulo{
     display: flex;
     justify-content: center;
     align-items: flex-end;
 
-.pruebaBEM__nav--menu1{
+.menu1{
         
     ul{
         display: flex;
@@ -23,11 +23,11 @@
         }
     }
 }
-.pruebaBEM__nav--menu2{
-    @extend .pruebaBEM__nav--menu1;
+.menu2{
+    @extend .menu1;
 }
 
-.pruebaBEM__nav--menu1{
+.menu1{
     ul{
         li{
             a:hover{
