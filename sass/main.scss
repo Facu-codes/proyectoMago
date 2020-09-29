@@ -4,15 +4,14 @@
 @import "_mixin.scss";
             /*RESET*/
 @import "_reset.scss";
-           /*REDES SOCIALES*/
-@import "_redes_header.scss";
-@import "_redes_footer.scss";
             /*HEADER*/
 @import "_header.scss";
+@import "_redes_header.scss";
             /*FRASE*/
 @import "frase.scss";     
             /*CARRUSEL*/
 @import "_carrusel.scss";
+@import "_mixin.scss";
             /*NOTICIAS*/
 @import "_noticias.scss";
             /*CONCIERTOS*/
@@ -25,6 +24,7 @@
 @import "_contacto.scss";
             /*FOOTER*/ 
 @import "_footer.scss";
+@import "_redes_footer.scss";
 
             /*BODY*/
 body{
