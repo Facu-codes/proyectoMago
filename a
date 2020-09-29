@@ -1,0 +1,23 @@
+[33mcommit d4e7f78b25f9c72c599879697b34e74f60a294a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 20:10:44 2020 -0300
+
+    agregué mixin al archivo _carrusel.scss
+
+[33mcommit 547380e9413eee1e5b0f5d7ac279ea23cedcfaae[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 19:28:39 2020 -0300
+
+    borré el archivo .zip
+
+[33mcommit 123a3c9c46843ceb5284b4374b541e73870d9ef9[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 19:16:59 2020 -0300
+
+    modifiqué el archivo main.scss, ordenando el código y enviando código correspondiente a cada archivo por ejemplo footer.scss
+
+[33mcommit c91d7f707371867d81f6c5ef3e0f632273e5143f[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 17:53:03 2020 -0300
+
+    primer comenterio
