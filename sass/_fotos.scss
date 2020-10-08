@@ -11,13 +11,10 @@
 
     ul{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
         li{
-            display: flex;
-            justify-content: center;
-
             .pruebaBEM__fotos--imagenes{
                 background-color:-webkit-box-shadow -15px 14px 16px -11px rgba(63,14,128,1);
                 -moz-box-shadow: -15px 14px 16px -11px rgba(63,14,128,1);
