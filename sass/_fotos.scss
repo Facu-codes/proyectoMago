@@ -1,5 +1,5 @@
-.pruebaBEM__fotos{
-    .pruebaBEM__fotos--titulo{
+.fotos{
+    .segmento{
         font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
@@ -15,7 +15,7 @@
         justify-content: space-around;
 
         li{
-            .pruebaBEM__fotos--imagenes{
+            .imagenes{
                 background-color:-webkit-box-shadow -15px 14px 16px -11px rgba(63,14,128,1);
                 -moz-box-shadow: -15px 14px 16px -11px rgba(63,14,128,1);
                 box-shadow: -15px 14px 16px -11px rgba(63,14,128,1);   

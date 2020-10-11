@@ -194,7 +194,7 @@ a {
 }
 
 /*FOTOS*/
-.pruebaBEM__fotos .pruebaBEM__fotos--titulo {
+.fotos .segmento {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
@@ -203,12 +203,12 @@ a {
   letter-spacing: 2px;
   word-spacing: 3px;
 }
-.pruebaBEM__fotos ul {
+.fotos ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.pruebaBEM__fotos ul li .pruebaBEM__fotos--imagenes {
+.fotos ul li .imagenes {
   background-color: -webkit-box-shadow -15px 14px 16px -11px #3f0e80;
   box-shadow: -15px 14px 16px -11px #3f0e80;
   margin: 5px;
