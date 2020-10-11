@@ -116,7 +116,32 @@ a {
   transform: scale(1.009);
   box-shadow: 31px 27px 23px -5px black;
 }
-
+.contenido .modalHeader {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.contenido .modalHeader h3 {
+  text-align: center;
+  font-family: "Londrina Solid", cursive;
+  color: rgba(202, 200, 200, 0.911);
+}
+.contenido .modalBody {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.contenido .modalBody p {
+  font-family: "Londrina Solid", cursive;
+  color: rgba(202, 200, 200, 0.911);
+}
+.contenido .modalFooter {
+  background-color: #3f0e80;
+  display: flex;
+  justify-content: space-around;
+}
+.contenido .modalFooter .botonModalseg, .contenido .modalFooter .botonModalprim {
+  background-color: rgba(0, 0, 0, 0.87);
+  font-family: "Londrina Solid", cursive;
+  color: rgba(202, 200, 200, 0.911);
+  margin: 2px;
+}
 /*CONCIERTOS*/
 .pruebaBEM__conciertos div .pruebaBEM__conciertos--titulo {
   font-size: 2.5rem;
