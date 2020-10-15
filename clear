@@ -1,0 +1,101 @@
+[33mcommit 0c0bc7c9784937b394219fafdf0c623cb8a410d2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Oct 11 19:48:43 2020 -0300
+
+    ahora todas las paginas tienen la misma animacion en el header
+
+[33mcommit fb87f8cb92b988a3f508af5fd0594692f2717d38[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Oct 11 19:41:38 2020 -0300
+
+    al subir el proyecto a github en la seccion noticias no toma bien algunas cosas del modal ademas solamente aplica el modal a las primeras dos noticas....
+
+[33mcommit b5e4f2f030827e5dec213b68e0c2f194dd6091e1[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Oct 11 19:30:44 2020 -0300
+
+    secciones terminadas: _index, _noticias, _fotos
+
+[33mcommit 4412e31209bd05e7dbe68d68d52fbf167362bbfd[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Oct 11 17:06:07 2020 -0300
+
+    comentario anterio invalido. Cierre seccion _fotos
+
+[33mcommit feebea2260f7ebfc6f85fcf312d1296865b52448[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Oct 11 14:51:16 2020 -0300
+
+    quedó el carrusel
+
+[33mcommit 4c0f77aa792883b66ccbb8a562dd8784c7c112f4[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Thu Oct 8 18:36:32 2020 -0300
+
+    correcciones en la pag noticias, videos, fotos, pag index modificaciones en el carrusel no completas
+
+[33mcommit fb105083e34beca09bcb195d600011b0ba27b6de[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Thu Oct 1 23:28:42 2020 -0300
+
+    realicé correcciones de la sección _noticias_ y reacomodé unas clases que tenían doble clases, corregí el footer que no llegaba al final de la pagina
+
+[33mcommit 560163032386f95ed85252cfbe795e61d8a0867f[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 17:47:30 2020 -0300
+
+    subiendo para chequear si está resuelto el problema del index
+
+[33mcommit a4ddf86d5e70d51fc0e6ec94aedc8dd08ca57129[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 17:35:15 2020 -0300
+
+    el problema con la fuente en el index era que estaba mal nombrada la propiedad de estilo de fuente (ref en vez de href)
+
+[33mcommit e65d812aa24238c7e345aec88e25b203213b2796[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 17:12:12 2020 -0300
+
+    prueba de comentario: quité las clases correspondientes a la barra de navegación, dejando las originales
+
+[33mcommit da3a4b52f0cf19a9ab65c8306bc69e5bc365afc2[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 15:00:51 2020 -0300
+
+    problema con mixin aplicado al carrusel
+
+[33mcommit 041ace8f3f67cd4033b29a13ffb1522c3c4692fd[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 14:59:14 2020 -0300
+
+    corrección generel dentro de cada página en función de la nueva ubicación del index
+
+[33mcommit 0407bfe37472318637674d42b5d76f0abcdfa325[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Tue Sep 29 13:23:28 2020 -0300
+
+    (prueba) reubiqué el archivo index.html
+
+[33mcommit d4e7f78b25f9c72c599879697b34e74f60a294a4[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 20:10:44 2020 -0300
+
+    agregué mixin al archivo _carrusel.scss
+
+[33mcommit 547380e9413eee1e5b0f5d7ac279ea23cedcfaae[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 19:28:39 2020 -0300
+
+    borré el archivo .zip
+
+[33mcommit 123a3c9c46843ceb5284b4374b541e73870d9ef9[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 19:16:59 2020 -0300
+
+    modifiqué el archivo main.scss, ordenando el código y enviando código correspondiente a cada archivo por ejemplo footer.scss
+
+[33mcommit c91d7f707371867d81f6c5ef3e0f632273e5143f[m
+Author: Facundo Calabrese <calabresefacundo@gmail.com>
+Date:   Sun Sep 27 17:53:03 2020 -0300
+
+    primer comenterio
