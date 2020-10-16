@@ -1,51 +1,59 @@
 .conciertos{
     div{
-        h2{
-            @include segmento_titulo;
-        }
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        margin-left: 200px;
-        
-        .conciertos--fecha{
-            padding: 0 0 8rem 10rem;
-            margin-top: 25px;
-            color: rgb(202, 200, 200);
-            font-size: 1.5rem;
-            padding: 0 1rem 0 0;
-            margin-bottom: 1rem;
-            list-style: none;
-
-            h4{
-                color: rgb(202, 200, 200);
-                font-size: 2rem;
-                padding: 1rem 0 0 10rem;
-                margin-bottom: 2rem;
-            }
-        }
         div{
-            .conciertos--entradas{
-                display: inline-block;
-                border: rgba(63,14,128,1) solid 1px;
-                border-radius: 5px;
-                background-color: rgba(63,14,128,1);
-                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                padding: 5px;
-                color: rgba(202,200,200, 0911);
-                text-decoration: none;
-                border-spacing: 1px;
+            div{
+                h2{
+                    @include segmento_titulo;
+                }
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                .titulo_concierto{
+                                    h4{
+                                        color: rgb(202, 200, 200);
+                                        font-size: 2rem;
+                                        margin: 50px 0;
+                                    }
+                }
+
+                .fecha{
+                        display: flex;
+                        flex-direction: column;
+                        align-self: start;
+                                            p{
+                                                margin-left: 250px;
+                                                color: rgb(202, 200, 200);
+                                                font-size: 1.5rem;
+                                                list-style: none;
+                                            }
+                }
+                .entradas{
+                        margin-bottom: 50px;
+                        .boton_entradas{
+                            border: rgba(63,14,128,1) solid 1px;
+                            border-radius: 5px;
+                            background-color: rgba(63,14,128,1);
+                            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            padding: 5px;
+                            color: rgba(202,200,200, 0911);
+                            text-decoration: none;
+                            border-spacing: 1px;
+                            
+                        }
+                    }
             }
         }
     }
 }
 .conciertos{
     ul{
-        div{
-            .conciertos--entradas:hover{
+        .entradas{
+            .boton_entradas:hover{
                 transform:scale(0.99);
                 background-color: rgb(53, 15, 102);
                 -webkit-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
