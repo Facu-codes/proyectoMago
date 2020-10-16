@@ -1,13 +1,7 @@
-.pruebaBEM__conciertos{
+.conciertos{
     div{
-        .pruebaBEM__conciertos--titulo{
-            font-size: 2.5rem;
-            font-weight: bold;
-            text-align: center;
-            color: rgb(202, 200, 200);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            word-spacing: 3px;
+        h2{
+            @include segmento_titulo;
         }
     }
     ul{
@@ -15,7 +9,7 @@
         flex-direction: column;
         margin-left: 200px;
         
-        .pruebaBEM__conciertos--fecha{
+        .conciertos--fecha{
             padding: 0 0 8rem 10rem;
             margin-top: 25px;
             color: rgb(202, 200, 200);
@@ -32,7 +26,7 @@
             }
         }
         div{
-            .pruebaBEM__conciertos--entradas{
+            .conciertos--entradas{
                 display: inline-block;
                 border: rgba(63,14,128,1) solid 1px;
                 border-radius: 5px;
@@ -48,10 +42,10 @@
         }
     }
 }
-.pruebaBEM__conciertos{
+.conciertos{
     ul{
         div{
-            .pruebaBEM__conciertos--entradas:hover{
+            .conciertos--entradas:hover{
                 transform:scale(0.99);
                 background-color: rgb(53, 15, 102);
                 -webkit-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);

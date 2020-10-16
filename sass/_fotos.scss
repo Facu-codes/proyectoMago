@@ -1,12 +1,6 @@
 .fotos{
-    .segmento{
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(202, 200, 200);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        word-spacing: 3px;
+     h2{
+        @include segmento_titulo;
     }
 
     ul{
