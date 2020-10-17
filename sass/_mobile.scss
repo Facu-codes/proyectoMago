@@ -1,0 +1,33 @@
+@media (max-width: 768px){
+
+    body{
+        
+        
+        
+        header{
+            
+                
+                
+            .redes_sociales_header{
+                display: none;
+            }
+            
+            .box_menu_titulo{
+                display: flex;
+                flex-direction: column;
+                
+
+                .menu1{
+                    display: none;
+                }
+                .menu2{
+                    display: none;
+                }
+            }
+        }
+
+        footer{
+            
+        }
+    }
+}

@@ -2,6 +2,8 @@
 @import "_variables.scss";
             /*RESET*/
 @import "_reset.scss";
+            /*MOBILE*/
+@import "_mobile.scss";
             /*HEADER*/
 @import "_header.scss";
 @import "_redes_header.scss";
@@ -24,6 +26,7 @@
 @import "_redes_footer.scss";
             /*BODY*/
 body{
+    height: 100vh;
     background-color: $color-fondo;
     display: grid;
     grid-template-columns: 5% auto 5%;

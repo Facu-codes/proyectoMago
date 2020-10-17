@@ -14,6 +14,22 @@ a {
   text-decoration: none;
 }
 
+/*MOBILE*/
+@media (max-width: 768px) {
+  body header .redes_sociales_header {
+    display: none;
+  }
+  body header .box_menu_titulo {
+    display: flex;
+    flex-direction: column;
+  }
+  body header .box_menu_titulo .menu1, body header .box_menu_titulo .menu2 {
+    display: none;
+  }
+  body header .box_menu_titulo .menu2 {
+    display: none;
+  }
+}
 /*HEADER*/
 .box_menu_titulo {
   display: flex;
@@ -235,6 +251,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 .fotos ul li .imagenes {
   background-color: -webkit-box-shadow -15px 14px 16px -11px #3f0e80;
@@ -314,6 +331,7 @@ footer {
 
 /*BODY*/
 body {
+  height: 100vh;
   background-color: #0f0e0e;
   display: grid;
   grid-template-columns: 5% auto 5%;
