@@ -1,7 +1,22 @@
 @media (max-width: 768px){
 
     body{
-        
+        div{
+            .columna1{
+                display: none;
+                p{
+                    display: none;
+                }
+            }
+        }
+        div{
+            .columna2{
+                display: none;
+                p{
+                    display: none;
+                }
+            }
+        }
         
         
         header{

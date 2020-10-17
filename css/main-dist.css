@@ -16,6 +16,18 @@ a {
 
 /*MOBILE*/
 @media (max-width: 768px) {
+  body div .columna1 {
+    display: none;
+  }
+  body div .columna1 p {
+    display: none;
+  }
+  body div .columna2 {
+    display: none;
+  }
+  body div .columna2 p {
+    display: none;
+  }
   body header .redes_sociales_header {
     display: none;
   }
@@ -349,8 +361,14 @@ body .columna1 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#400d82", endColorstr="#100f0f", GradientType=0 );
 }
 body .columna1 p {
-  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  writing-mode: vertical-lr;
+  -webkit-text-orientation: sideways-lr;
+          text-orientation: sideways-lr;
+  letter-spacing: 15px;
   font-family: "Londrina Solid", cursive;
+  font-size: 40px;
   color: #cac8c8;
 }
 body .columna2 {
@@ -364,8 +382,14 @@ body .columna2 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#400d82", endColorstr="#100f0f", GradientType=0 );
 }
 body .columna2 p {
-  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  writing-mode: vertical-lr;
+  -webkit-text-orientation: sideways;
+          text-orientation: sideways;
+  letter-spacing: 15px;
   font-family: "Londrina Solid", cursive;
+  font-size: 40px;
   color: #cac8c8;
 }
 body header {

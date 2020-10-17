@@ -35,6 +35,7 @@ body{
     "columna1 header columna2"
     "columna1 contenido columna2"
     "footer footer footer";
+   
 
 .columna1{
     grid-area: columna1;
@@ -48,10 +49,16 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#400d82', endColorstr='#100f0f', GradientType=0 );
         
     p{  
-        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+        writing-mode: vertical-lr;
+        text-orientation: sideways-lr;
+        letter-spacing: 15px;
         font-family: $fuente-principal;
+        font-size: 40px;
         color:  rgb(202, 200, 200);
     }
+
 }
 .columna2{
     grid-area: columna2;
@@ -65,10 +72,16 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#400d82', endColorstr='#100f0f', GradientType=0 );
     
     p{
-        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        letter-spacing: 15px;
         font-family: $fuente-principal;
+        font-size: 40px;
         color:  rgb(202, 200, 200);
     }
+   
 }
 
 header{
