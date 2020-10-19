@@ -16,18 +16,6 @@ a {
 
 /*MOBILE*/
 @media (max-width: 768px) {
-  body div .columna1 {
-    display: none;
-  }
-  body div .columna1 p {
-    display: none;
-  }
-  body div .columna2 {
-    display: none;
-  }
-  body div .columna2 p {
-    display: none;
-  }
   body header .redes_sociales_header {
     display: none;
   }
@@ -120,6 +108,9 @@ a {
   flex-wrap: wrap;
 }
 .contenido .box_noticias ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start center;
   margin: 5px;
   border: 2px solid #cac8c8;
   background-color: #3f0e80;
@@ -135,10 +126,6 @@ a {
   font-size: 15px;
   letter-spacing: 1px;
   margin: 0px;
-}
-.contenido .box_noticias ul li a {
-  display: flex;
-  justify-content: center;
 }
 .contenido .box_noticias ul li:hover {
   transform: scale(1.009);
@@ -318,9 +305,12 @@ footer {
   background: -webkit-gradient(left top, left bottom, color-stop(0%, #0f0e0e), color-stop(22%, #0f0e0e), color-stop(80%, #3f0e80), color-stop(83%, #3f0e80), color-stop(91%, #3f0e80), color-stop(100%, #3f0e80));
   background: linear-gradient(to bottom, #0f0e0e 0%, #0f0e0e 22%, #3f0e80 80%, #3f0e80 83%, #3f0e80 91%, #3f0e80 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#0f0e0e", endColorstr="#3f0e80", GradientType=0 );
-  min-height: calc(100vh - 100px - 360px);
+  min-height: calc(100vh - 100px - 300px);
 }
 
+.redes_sociales_footer {
+  margin-top: 90px;
+}
 .redes_sociales_footer ul {
   list-style: none;
   display: flex;
@@ -335,6 +325,7 @@ footer {
 .redes_sociales_footer ul li p {
   color: #cac8c8;
   font-size: 7px bold;
+  margin: 0px;
 }
 
 .redes_sociales_footer ul li img:hover {
@@ -364,9 +355,8 @@ body .columna1 p {
   margin-left: 0px;
   padding-left: 0px;
   writing-mode: vertical-lr;
-  -webkit-text-orientation: sideways-lr;
-          text-orientation: sideways-lr;
-  letter-spacing: 15px;
+  transform: rotate(180deg);
+  letter-spacing: 50px;
   font-family: "Londrina Solid", cursive;
   font-size: 40px;
   color: #cac8c8;
@@ -385,9 +375,7 @@ body .columna2 p {
   margin-left: 0px;
   padding-left: 0px;
   writing-mode: vertical-lr;
-  -webkit-text-orientation: sideways;
-          text-orientation: sideways;
-  letter-spacing: 15px;
+  letter-spacing: 50px;
   font-family: "Londrina Solid", cursive;
   font-size: 40px;
   color: #cac8c8;
