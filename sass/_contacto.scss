@@ -12,6 +12,7 @@
                 display: flex;
                 justify-content: center;
                 margin-top: 40px;
+                
         #form_contact{
                 display: grid;
                 grid-template-columns: 200px 200px;
@@ -24,18 +25,41 @@
             
                 .name{
                     grid-area: nombre;
+                    @include formulario_contacto;
                 }
 
                 .email{
                     grid-area: email;
+                    @include formulario_contacto;
                 }
                 
                 .mensaje{
                     grid-area: mensaje;
                     resize: none;
+                    @include formulario_contacto;
                 }
+                .boton_contacto{
+                    @include boton_entrada_contacto;    
+                }
+        }
+    }
+}
 
-
+.contenido{
+    .box_formulario{
+        #form_contact{
+            .name:hover{
+                @include formulario_efecto;
+            }
+            .email:hover{
+                @include formulario_efecto;
+            }
+            .mensaje:hover{
+                @include formulario_efecto;
+            }
+            .boton_contacto:hover{
+                @include boton_entrada_contacto_efecto;
+            }
         }
     }
 }

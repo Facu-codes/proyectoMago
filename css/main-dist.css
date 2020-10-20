@@ -285,11 +285,23 @@ a {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: nombre;
+  background-color: #0f0e0e;
+  font-family: "Londrina Solid", cursive;
+  color: #cac8c8;
+  border: 3px solid;
+  border-radius: 2px;
+  border-color: #350f66;
 }
 .contenido .box_formulario #form_contact .email {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: email;
+  background-color: #0f0e0e;
+  font-family: "Londrina Solid", cursive;
+  color: #cac8c8;
+  border: 3px solid;
+  border-radius: 2px;
+  border-color: #350f66;
 }
 .contenido .box_formulario #form_contact .mensaje {
   -ms-grid-row: 3;
@@ -297,6 +309,40 @@ a {
   -ms-grid-column-span: 3;
   grid-area: mensaje;
   resize: none;
+  background-color: #0f0e0e;
+  font-family: "Londrina Solid", cursive;
+  color: #cac8c8;
+  border: 3px solid;
+  border-radius: 2px;
+  border-color: #350f66;
+}
+.contenido .box_formulario #form_contact .boton_contacto {
+  border: #3f0e80 solid 1px;
+  border-radius: 5px;
+  background-color: #3f0e80;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  color: #cac8c8;
+  text-decoration: none;
+  border-spacing: 1px;
+}
+
+.contenido .box_formulario #form_contact .name:hover {
+  transform: scale(1.02);
+  background-color: #350f66;
+}
+.contenido .box_formulario #form_contact .email:hover {
+  transform: scale(1.02);
+  background-color: #350f66;
+}
+.contenido .box_formulario #form_contact .mensaje:hover {
+  transform: scale(1.02);
+  background-color: #350f66;
+}
+.contenido .box_formulario #form_contact .boton_contacto:hover {
+  transform: scale(0.99);
+  background-color: #350f66;
+  box-shadow: inset -2px -35px 23px -37px rgba(0, 0, 0, 0.6);
 }
 
 /*FOOTER*/
@@ -335,6 +381,7 @@ footer {
 /*BODY*/
 body {
   height: 100vh;
+  width: 100vw;
   background-color: #0f0e0e;
   display: grid;
   grid-template-columns: 5% auto 5%;
@@ -351,9 +398,8 @@ body .columna1 {
   background: linear-gradient(to bottom, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.88) 4%, rgba(64, 13, 130, 0.88) 8%, rgba(64, 13, 130, 0.88) 10%, rgba(64, 13, 130, 0.89) 15%, rgba(64, 13, 130, 0.9) 21%, rgba(64, 13, 130, 0.91) 27%, rgba(64, 13, 130, 0.91) 30%, rgba(64, 13, 130, 0.91) 32%, rgba(64, 13, 130, 0.91) 33%, rgba(64, 13, 130, 0.92) 36%, rgba(64, 13, 130, 0.92) 38%, rgba(64, 13, 130, 0.92) 39%, rgba(64, 13, 130, 0.92) 42%, rgba(64, 13, 130, 0.92) 42%, rgba(64, 13, 130, 0.93) 44%, #100f0f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#400d82", endColorstr="#100f0f", GradientType=0 );
 }
-body .columna1 p {
-  margin-left: 0px;
-  padding-left: 0px;
+body .columna1 .relleno_columna1 {
+  margin-left: 10px;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   letter-spacing: 50px;
@@ -371,9 +417,9 @@ body .columna2 {
   background: linear-gradient(to bottom, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.87) 0%, rgba(64, 13, 130, 0.88) 4%, rgba(64, 13, 130, 0.88) 8%, rgba(64, 13, 130, 0.88) 10%, rgba(64, 13, 130, 0.89) 15%, rgba(64, 13, 130, 0.9) 21%, rgba(64, 13, 130, 0.91) 27%, rgba(64, 13, 130, 0.91) 30%, rgba(64, 13, 130, 0.91) 32%, rgba(64, 13, 130, 0.91) 33%, rgba(64, 13, 130, 0.92) 36%, rgba(64, 13, 130, 0.92) 38%, rgba(64, 13, 130, 0.92) 39%, rgba(64, 13, 130, 0.92) 42%, rgba(64, 13, 130, 0.92) 42%, rgba(64, 13, 130, 0.93) 44%, #100f0f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#400d82", endColorstr="#100f0f", GradientType=0 );
 }
-body .columna2 p {
-  margin-left: 0px;
-  padding-left: 0px;
+body .columna2 .relleno_columna2 {
+  margin-left: 10px;
+  margin-top: 50px;
   writing-mode: vertical-lr;
   letter-spacing: 50px;
   font-family: "Londrina Solid", cursive;

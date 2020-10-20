@@ -33,33 +33,23 @@
                 .entradas{
                         margin-bottom: 50px;
                         .boton_entradas{
-                            border: rgba(63,14,128,1) solid 1px;
-                            border-radius: 5px;
-                            background-color: rgba(63,14,128,1);
-                            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                            padding: 5px;
-                            color: rgba(202,200,200, 0911);
-                            text-decoration: none;
-                            border-spacing: 1px;
-                            
+                            @include boton_entrada_contacto;
+
+                           
+                        }
+                        
                         }
                     }
             }
         }
     }
-}
 .conciertos{
     ul{
         .entradas{
             .boton_entradas:hover{
-                transform:scale(0.99);
-                background-color: rgb(53, 15, 102);
-                -webkit-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
-                -moz-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
-                box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
+                @include boton_entrada_contacto_efecto;
             }
-        }
+            
     }
+}
 }

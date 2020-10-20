@@ -10,3 +10,41 @@ $fuente-principal: "Londrina Solid",cursive;
     letter-spacing: 2px;
     word-spacing: 3px;
 }
+
+@mixin boton_entrada_contacto{
+                            border: rgba(63,14,128,1) solid 1px;
+                            border-radius: 5px;
+                            background-color: rgba(63,14,128,1);
+                            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                            padding: 5px;
+                            color: rgba(202,200,200, 0911);
+                            text-decoration: none;
+                            border-spacing: 1px;
+    
+}
+
+@mixin boton_entrada_contacto_efecto{
+                            transform:scale(0.99);
+                            background-color: rgb(53, 15, 102);
+                            -webkit-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
+                            -moz-box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
+                            box-shadow: inset -2px -35px 23px -37px rgba(0,0,0,0.6);
+    
+}
+
+@mixin formulario_contacto{
+        background-color: rgb(15,14,14);
+        font-family: $fuente-principal;
+        color: rgb(202, 200, 200);
+        border: 3px solid;
+        border-radius: 2px;
+        border-color: rgba(53, 15, 102);
+        
+}
+
+@mixin formulario_efecto{
+    transform:scale(1.02);
+    background-color: rgb(53, 15, 102);
+}
