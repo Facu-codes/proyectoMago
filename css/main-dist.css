@@ -23,6 +23,11 @@ a {
     /*FOTOS*/
     /*CONTACTO*/
   }
+  body .nav_mobile_footer {
+    margin-top: 20px;
+    width: 35px;
+    background-color: #3f0e80;
+  }
   body header {
     display: flex;
     flex-direction: column;
@@ -31,10 +36,16 @@ a {
   body header .redes_sociales_header {
     display: none;
   }
+  body header .index_nav_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   body header .index_nav_mobile .nav_mobile {
-    margin-top: 3px;
+    display: inline-block;
     width: 35px;
     background-color: #3f0e80;
+    margin-top: 8px;
   }
   body header .index_nav_mobile .box_menu_titulo .menu1, body header .index_nav_mobile .box_menu_titulo .menu2 {
     display: none;
@@ -98,11 +109,15 @@ a {
   body .contenido h2 {
     font-size: 2rem;
   }
-  body .contenido .box_formulario .boton_contacto {
+  body .contenido .box_formulario #form_contact {
+    width: 80%;
+    display: flex;
+  }
+  body .contenido .box_formulario #form_contact .boton_contacto {
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) and (max-width: 480px) {
   /*VIDEOS*/
   .videos ul iframe {
     max-width: 100%;
@@ -389,44 +404,33 @@ header .box_menu_titulo .menu1 ul li a:hover, header .box_menu_titulo .menu2 ul 
 }
 .contenido .box_formulario {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 40px;
 }
 .contenido .box_formulario #form_contact {
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-areas: "nombre email" "mensaje mensaje";
-  color: floralwhite;
-  grid-column-gap: 3px;
-  grid-row-gap: 3px;
+  display: flex;
+  flex-direction: column;
 }
 .contenido .box_formulario #form_contact .name {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: nombre;
   background-color: #0f0e0e;
   font-family: "Londrina Solid", cursive;
   color: #cac8c8;
   border: 3px solid;
   border-radius: 2px;
   border-color: #350f66;
+  margin-bottom: 3px;
 }
 .contenido .box_formulario #form_contact .email {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: email;
   background-color: #0f0e0e;
   font-family: "Londrina Solid", cursive;
   color: #cac8c8;
   border: 3px solid;
   border-radius: 2px;
   border-color: #350f66;
+  margin-bottom: 3px;
 }
 .contenido .box_formulario #form_contact .mensaje {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: mensaje;
   resize: none;
   background-color: #0f0e0e;
   font-family: "Londrina Solid", cursive;
@@ -434,6 +438,7 @@ header .box_menu_titulo .menu1 ul li a:hover, header .box_menu_titulo .menu2 ul 
   border: 3px solid;
   border-radius: 2px;
   border-color: #350f66;
+  margin-bottom: 3px;
 }
 .contenido .box_formulario #form_contact .boton_contacto {
   border: #3f0e80 solid 1px;
@@ -444,6 +449,7 @@ header .box_menu_titulo .menu1 ul li a:hover, header .box_menu_titulo .menu2 ul 
   color: #cac8c8;
   text-decoration: none;
   border-spacing: 1px;
+  position: relative;
 }
 
 .contenido .box_formulario #form_contact .name:hover {

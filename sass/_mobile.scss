@@ -3,7 +3,11 @@
 
     body{
      
-        
+        .nav_mobile_footer{
+            margin-top: 20px;
+            width: 35px;
+            background-color: rgb(63,14,128,1);
+        }
         
         header{
             display: flex;
@@ -14,16 +18,18 @@
                 display: none;
                 }
             .index_nav_mobile{
-                              
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+            
             .nav_mobile{
-                    margin-top: 3px;
+                    display: inline-block;
                     width: 35px;
-                    background-color: rgb(63,14,128,1)             
+                    background-color: rgb(63,14,128,1);
+                    margin-top: 8px;
             }
             
                 .box_menu_titulo{
-               
-                
                 .menu1{
                     display: none;
                 }
@@ -101,6 +107,7 @@
             }
         
         }
+       
     }
     /*VIDEOS*/
     .videos{
@@ -139,6 +146,9 @@
             font-size: 2rem;
         }
         .box_formulario{
+            #form_contact{
+                width: 80%;
+                display: flex;
                 
 
             .boton_contacto{
@@ -147,6 +157,7 @@
         }
     }
 }
+
 }
 
 @media only screen and (max-width: 480px){
@@ -172,8 +183,4 @@
         }
     }
 }
-
-@media only screen and (max-width: 1200px){
-
-
 }

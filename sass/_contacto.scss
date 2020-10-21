@@ -10,36 +10,34 @@
     }
     .box_formulario{
                 display: flex;
-                justify-content: center;
+                flex-direction: column;
+                align-items: center;
                 margin-top: 40px;
                 
         #form_contact{
-                display: grid;
-                grid-template-columns: 200px 200px;
-                grid-template-areas: 
-                "nombre email"
-                "mensaje mensaje";
-                color: floralwhite;
-                grid-column-gap: 3px;
-                grid-row-gap: 3px;
-            
+                    display: flex;
+                    flex-direction: column;
+
                 .name{
-                    grid-area: nombre;
                     @include formulario_contacto;
+                    margin-bottom: 3px;
                 }
 
                 .email{
-                    grid-area: email;
                     @include formulario_contacto;
+                    margin-bottom: 3px;
                 }
                 
                 .mensaje{
-                    grid-area: mensaje;
                     resize: none;
                     @include formulario_contacto;
+                    margin-bottom: 3px;
                 }
                 .boton_contacto{
-                    @include boton_entrada_contacto;    
+                    @include boton_entrada_contacto;
+                    position: relative;
+                    
+                        
                 }
         }
     }
