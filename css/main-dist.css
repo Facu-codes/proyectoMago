@@ -42,7 +42,7 @@ a {
     align-items: center;
   }
   body header .index_nav_mobile .nav_mobile {
-    display: inline-block;
+    display: inline;
     width: 35px;
     background-color: #3f0e80;
     margin-top: 8px;
@@ -115,6 +115,11 @@ a {
   }
   body .contenido .box_formulario #form_contact .boton_contacto {
     max-width: 100%;
+  }
+  body .nav_mobile_footer {
+    margin-top: 20px;
+    width: 35px;
+    background-color: #3f0e80;
   }
 }
 @media only screen and (max-width: 768px) and (max-width: 480px) {
