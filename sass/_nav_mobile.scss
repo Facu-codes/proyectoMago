@@ -1,0 +1,40 @@
+.fondo{
+    background-color: rgb(28, 27, 31);
+    header{
+
+        .box_titulo_frase{
+            img{
+                text-align: center;
+            }
+        }
+
+        nav{
+            .nav_mob{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                
+                li{
+                    @include nav_li;
+                    margin: 5px;
+
+                    a{
+                        @include nav_li_a;
+                    }
+         
+            }
+        }
+    }
+}
+.img_pie_mobile{
+         
+    img{
+        display: inline-block;
+        position: absolute;
+        top: 480px;
+        left: 133px;
+        width: 50px;
+    }
+}
+}

@@ -15,44 +15,163 @@ a {
 }
 
 /*MOBILE*/
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  body {
+    /*NOTICIAS*/
+    /*CONCIERTOS*/
+    /*VIDEOS*/
+    /*FOTOS*/
+    /*CONTACTO*/
+  }
+  body header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
   body header .redes_sociales_header {
     display: none;
   }
-  body header .box_menu_titulo {
+  body header .index_nav_mobile .nav_mobile {
+    margin-top: 3px;
+    width: 35px;
+    background-color: #3f0e80;
+  }
+  body header .index_nav_mobile .box_menu_titulo .menu1, body header .index_nav_mobile .box_menu_titulo .menu2 {
+    display: none;
+  }
+  body header .index_nav_mobile .box_menu_titulo .box_titulo_frase img {
+    height: 91px;
+    width: 285px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+  body header .index_nav_mobile .box_menu_titulo .menu2 {
+    display: none;
+  }
+  body header .frase {
+    font-size: 15px;
+  }
+  body .relleno_columna1 {
+    display: none;
+  }
+  body .relleno_columna2 {
+    display: none;
+  }
+  body .contenido div div h2 {
+    font-size: 2rem;
+  }
+  body .contenido .tabindex .fullscreen-modal .modal-dialog {
+    width: 750px;
+  }
+  body .conciertos div div div h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+  body .conciertos div div div ul .titulo_concierto h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  body .conciertos div div div ul .fecha {
+    margin-bottom: 30px;
+  }
+  body .conciertos div div div ul .fecha p {
     display: flex;
-    flex-direction: column;
+    justify-content: left;
+    font-family: "Londrina Solid", cursive;
+    font-size: 1rem;
+    margin-left: 0;
   }
-  body header .box_menu_titulo .menu1, body header .box_menu_titulo .menu2 {
-    display: none;
+  body .videos h2 {
+    font-size: 2rem;
   }
-  body header .box_menu_titulo .menu2 {
-    display: none;
+  body .videos ul iframe {
+    width: 100%;
+    height: 195px;
+  }
+  body .fotos h2 {
+    font-size: 2rem;
+  }
+  body .fotos div div div ul li .imagenes {
+    width: 400px;
+  }
+  body .contenido h2 {
+    font-size: 2rem;
+  }
+  body .contenido .box_formulario .boton_contacto {
+    max-width: 100%;
   }
 }
+@media only screen and (max-width: 480px) {
+  /*VIDEOS*/
+  .videos ul iframe {
+    max-width: 100%;
+  }
+
+  /*CONTACTO*/
+  .contenido .box_formulario #form_contact .boton_contacto {
+    width: 100%;
+  }
+}
+.fondo {
+  background-color: #1c1b1f;
+}
+.fondo header .box_titulo_frase img {
+  text-align: center;
+}
+.fondo header nav .nav_mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondo header nav .nav_mob li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Londrina Solid", cursive;
+  margin: 5px;
+}
+.fondo header nav .nav_mob li a {
+  display: inline-block;
+  color: rgba(202, 200, 200, 0.911);
+  -webkit-text-decoration: none solid;
+          text-decoration: none solid;
+}
+.fondo .img_pie_mobile img {
+  display: inline-block;
+  position: absolute;
+  top: 480px;
+  left: 133px;
+  width: 50px;
+}
+
 /*HEADER*/
-.box_menu_titulo {
+header .nav_mobile {
+  display: none;
+}
+header .box_menu_titulo {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.box_menu_titulo .menu1 ul, .box_menu_titulo .menu2 ul {
+header .box_menu_titulo .menu1 ul, header .box_menu_titulo .menu2 ul {
   display: flex;
 }
-.box_menu_titulo .menu1 ul li, .box_menu_titulo .menu2 ul li {
+header .box_menu_titulo .menu1 ul li, header .box_menu_titulo .menu2 ul li {
   display: inline-block;
   list-style: none;
   margin: 20px;
   font-size: 20px;
   font-family: "Londrina Solid", cursive;
 }
-.box_menu_titulo .menu1 ul li a, .box_menu_titulo .menu2 ul li a {
+header .box_menu_titulo .menu1 ul li a, header .box_menu_titulo .menu2 ul li a {
   display: inline-block;
   color: rgba(202, 200, 200, 0.911);
   -webkit-text-decoration: none solid;
           text-decoration: none solid;
 }
-.box_menu_titulo .menu1 ul li a:hover, .box_menu_titulo .menu2 ul li a:hover {
+header .box_menu_titulo .menu1 ul li a:hover, header .box_menu_titulo .menu2 ul li a:hover {
   transform: scale(1.5);
 }
 
